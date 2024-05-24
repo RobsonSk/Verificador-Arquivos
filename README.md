@@ -73,7 +73,7 @@ str: Tamanho do arquivo legível.
 O script registra quaisquer exceções FileNotFoundError ou NotADirectoryError no arquivo de log de erros com detalhes relevantes.
 
 ## Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 Para qualquer pergunta ou sugestão, entre em contato com [Robson Scartezini](mailto:robsonshk@gmail.com).
