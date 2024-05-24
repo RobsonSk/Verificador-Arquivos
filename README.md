@@ -1,4 +1,4 @@
-## Verificador-Arquivos
+# Verificador-Arquivos
 
 Este repositório contém um script Python que registra detalhes sobre arquivos em diretórios especificados. Ele grava informações como tamanho do arquivo, data de modificação e extensão em um arquivo de log CSV, enquanto erros encontrados durante o processo são escritos em um arquivo de erro separado.
 
@@ -6,7 +6,7 @@ Este repositório contém um script Python que registra detalhes sobre arquivos 
 - **Registra detalhes dos arquivos, incluindo nome, tamanho, data de modificação e extensão.**
 - **Lida com erros, gravando-os em um log de erros separado.**
 - **Converte tamanhos de arquivos para formatos legíveis.**
-- **Desenvolvido para Windows mas pode ser adaptador para ambientes UNIX.**
+- **Desenvolvido para Windows mas pode ser adaptado para ambientes UNIX.**
 
 ## Requisitos
 ```sh
@@ -43,16 +43,16 @@ O script irá:
 1. Registrar quaisquer erros encontrados no arquivo de erro especificado.
 
 ## Funções internas
-# convert_size(size_bytes)
+### convert_size(size_bytes)
 Converte o tamanho de um arquivo em bytes para uma string legível.
 
-# Parâmetros:
+### Parâmetros:
 size_bytes (int): O tamanho do arquivo em bytes.
 
-# Retorna:
+### Retorna:
 str: Tamanho do arquivo legível.
 
-# Fluxo do Script
+### Fluxo do Script
 1. Mudar Diretório:
 - os.chdir(r'Diretorio\para\pesquisa'): Muda o diretório de trabalho atual para o caminho especificado.
 
@@ -73,7 +73,7 @@ str: Tamanho do arquivo legível.
 O script registra quaisquer exceções FileNotFoundError ou NotADirectoryError no arquivo de log de erros com detalhes relevantes.
 
 ## Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENCE.md) para mais detalhes.
 
 ## Contato
 Para qualquer pergunta ou sugestão, entre em contato com [Robson Scartezini](mailto:robsonshk@gmail.com).
